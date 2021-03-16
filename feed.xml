@@ -7,16 +7,12 @@
     <item>
       <title>Dotfiles manager written in Rust #1</title>
       <description><![CDATA[
-			<h3>This is some text</h3>
+			<p>Does rust code work?</p>
 
-<hr />
-
-<p>Does rust code work?
-<code>rust
-fn main() {
-    println!("Hello, world!");
-}
-</code></p>
+<div class="code"><pre><span></span><code><span class="code-k">fn</span> <span class="code-nf">main</span><span class="code-p">()</span><span class="code-w"> </span><span class="code-p">{</span><span class="code-w"></span>
+<span class="code-w">    </span><span class="code-fm">println!</span><span class="code-p">(</span><span class="code-s">&quot;Hello, world!&quot;</span><span class="code-p">);</span><span class="code-w"></span>
+<span class="code-p">}</span><span class="code-w"></span>
+</code></pre></div>
 
       ]]></description>
       <pubDate>Tue, 16 Mar 2021 00:00:00 -0000</pubDate>
