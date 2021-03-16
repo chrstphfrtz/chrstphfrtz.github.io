@@ -18,21 +18,21 @@ Handwritten by Michiel de Graaf.
 
     --separator-color: #ccc;
 
-    --code-background-color: hsl(0, 0%, 94.9%);
+/*    --code-background-color: hsl(0, 0%, 94.9%); */
     --code-border-color: hsl(0,0%,84%);
-    --code-text-color: #333;
+    --code-text-color: white;
 
-    --syntax-color-keyword: #445588;
-    --syntax-color-type: purple;
+    --syntax-color-keyword: #00a591;
+    --syntax-color-type: #008e8f;
     --syntax-color-comment: #999999;
-    --syntax-color-identifier: #990000;
-    --syntax-color-class: #445588;
-    --syntax-color-string: #d14;
-    --syntax-color-number: #099;
-    --syntax-color-attribute: teal;
+    --syntax-color-identifier: #007685;
+/*    --syntax-color-class: #445588; */
+    --syntax-color-string: #deb887;
+    --syntax-color-number: #008e8f;
+/*    --syntax-color-attribute: teal;
     --syntax-color-namespace: #555;
     --syntax-color-output: #888;
-    --syntax-color-prompt: #555;
+    --syntax-color-prompt: #555; */
 }
 
 @media(prefers-color-scheme:dark) {
