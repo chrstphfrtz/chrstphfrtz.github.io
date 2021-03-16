@@ -5,7 +5,7 @@
     <link>https://chrstphfrtz.github.io</link>
 		
     <item>
-      <title>Creating a dotfiles manager with Rust #1</title>
+      <title>Dotfiles manager written in Rust #1</title>
       <description><![CDATA[
 			<h3>This is some text</h3>
 
@@ -20,8 +20,8 @@ fn main() {
 
       ]]></description>
       <pubDate>Tue, 16 Mar 2021 00:00:00 -0000</pubDate>
-      <guid isPermaLink="true">https://chrstphfrtz.github.io/2021/03/sample_post.html</guid>
-      <link>https://chrstphfrtz.github.io/2021/03/sample_post.html</link>
+      <guid isPermaLink="true">https://chrstphfrtz.github.io/2021/03/dotfiles-manager-1.html</guid>
+      <link>https://chrstphfrtz.github.io/2021/03/dotfiles-manager-1.html</link>
     </item>
 		
   </channel>
