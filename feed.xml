@@ -46,8 +46,33 @@
 
 <hr />
 
-<div class="code"><pre><span></span><code><span class="code-k">fn</span> <span class="code-nf">parse</span><span class="code-p">(</span><span class="code-n">int</span><span class="code-w"> </span><span class="code-n">x</span><span class="code-p">)</span><span class="code-w"> </span><span class="code-p">{</span><span class="code-w"></span>
-<span class="code-w">    </span><span class="code-fm">unimplemented!</span><span class="code-p">();</span><span class="code-w"></span>
+<div class="code"><pre><span></span><code><span class="code-k">fn</span> <span class="code-nf">main</span><span class="code-p">()</span><span class="code-w"> </span><span class="code-p">{</span><span class="code-w"></span>
+<span class="code-w">    </span><span class="code-kd">let</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-w"> </span><span class="code-o">=</span><span class="code-w"> </span><span class="code-mi">5</span><span class="code-p">;</span><span class="code-w"></span>
+
+<span class="code-w">    </span><span class="code-k">if</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-w"> </span><span class="code-o">&lt;</span><span class="code-w"> </span><span class="code-mi">0</span><span class="code-w"> </span><span class="code-p">{</span><span class="code-w"></span>
+<span class="code-w">        </span><span class="code-fm">print!</span><span class="code-p">(</span><span class="code-s">&quot;{} is negative&quot;</span><span class="code-p">,</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-p">);</span><span class="code-w"></span>
+<span class="code-w">    </span><span class="code-p">}</span><span class="code-w"> </span><span class="code-k">else</span><span class="code-w"> </span><span class="code-k">if</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-w"> </span><span class="code-o">&gt;</span><span class="code-w"> </span><span class="code-mi">0</span><span class="code-w"> </span><span class="code-p">{</span><span class="code-w"></span>
+<span class="code-w">        </span><span class="code-fm">print!</span><span class="code-p">(</span><span class="code-s">&quot;{} is positive&quot;</span><span class="code-p">,</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-p">);</span><span class="code-w"></span>
+<span class="code-w">    </span><span class="code-p">}</span><span class="code-w"> </span><span class="code-k">else</span><span class="code-w"> </span><span class="code-p">{</span><span class="code-w"></span>
+<span class="code-w">        </span><span class="code-fm">print!</span><span class="code-p">(</span><span class="code-s">&quot;{} is zero&quot;</span><span class="code-p">,</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-p">);</span><span class="code-w"></span>
+<span class="code-w">    </span><span class="code-p">}</span><span class="code-w"></span>
+
+<span class="code-w">    </span><span class="code-kd">let</span><span class="code-w"> </span><span class="code-n">big_n</span><span class="code-w"> </span><span class="code-o">=</span><span class="code-w"></span>
+<span class="code-w">        </span><span class="code-k">if</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-w"> </span><span class="code-o">&lt;</span><span class="code-w"> </span><span class="code-mi">10</span><span class="code-w"> </span><span class="code-o">&amp;&amp;</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-w"> </span><span class="code-o">&gt;</span><span class="code-w"> </span><span class="code-o">-</span><span class="code-mi">10</span><span class="code-w"> </span><span class="code-p">{</span><span class="code-w"></span>
+<span class="code-w">            </span><span class="code-fm">println!</span><span class="code-p">(</span><span class="code-s">&quot;, and is a small number, increase ten-fold&quot;</span><span class="code-p">);</span><span class="code-w"></span>
+
+<span class="code-w">            </span><span class="code-c1">// This expression returns an `i32`.</span>
+<span class="code-w">            </span><span class="code-mi">10</span><span class="code-w"> </span><span class="code-o">*</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-w"></span>
+<span class="code-w">        </span><span class="code-p">}</span><span class="code-w"> </span><span class="code-k">else</span><span class="code-w"> </span><span class="code-p">{</span><span class="code-w"></span>
+<span class="code-w">            </span><span class="code-fm">println!</span><span class="code-p">(</span><span class="code-s">&quot;, and is a big number, halve the number&quot;</span><span class="code-p">);</span><span class="code-w"></span>
+
+<span class="code-w">            </span><span class="code-c1">// This expression must return an `i32` as well.</span>
+<span class="code-w">            </span><span class="code-n">n</span><span class="code-w"> </span><span class="code-o">/</span><span class="code-w"> </span><span class="code-mi">2</span><span class="code-w"></span>
+<span class="code-w">            </span><span class="code-c1">// TODO ^ Try suppressing this expression with a semicolon.</span>
+<span class="code-w">        </span><span class="code-p">};</span><span class="code-w"></span>
+<span class="code-w">    </span><span class="code-c1">//   ^ Don&#39;t forget to put a semicolon here! All `let` bindings need it.</span>
+
+<span class="code-w">    </span><span class="code-fm">println!</span><span class="code-p">(</span><span class="code-s">&quot;{} -&gt; {}&quot;</span><span class="code-p">,</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-p">,</span><span class="code-w"> </span><span class="code-n">big_n</span><span class="code-p">);</span><span class="code-w"></span>
 <span class="code-p">}</span><span class="code-w"></span>
 </code></pre></div>
 
