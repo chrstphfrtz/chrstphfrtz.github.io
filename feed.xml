@@ -17,35 +17,6 @@
 
 <hr />
 
-<p>I'm writing this post in <a href="http://www.iawriter.com">iA Writer</a> on my iPad while cozily lying in my recliner after lunch. I'm writing it in <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a>, not messy HTML. The first half was typed in on my MacBook Pro, also in iA Writer. I can publish it from my iPhone later by moving it to a special folder in my Dropbox when I'm out.</p>
-
-<p>To make this whole writing and publishing experience possible, I built my own blogging system — <a href="https://github.com/an0/Letterpress">Letterpress</a>. </p>
-
-<p>I've been using <a href="http://wordpress.org">WordPress</a> since July, 2009. It is almost good enough. I encountered several downtimes when MySQL hung. I don't know a thing about database so I had to reboot the whole machine. I even wrote 1 or 2 small WordPress plugins for my own use, which further consolidated my aversion to PHP. RSS/Atom feed generating is meaningless to me since I'm not famous and no one subscribe to my blog except myself. Comments are also just ego feeders and I guess I got more VIAGRA spams than sensible comments. Most importantly, the writing experience is not good, neither in its web editor nor in its mobile apps.</p>
-
-<p>I just want a minimal blogging system with good writing experience. Only static text files, no dynamic HTML generated from database. No RSS/Atom. No comments. And no PHP.</p>
-
-<p>That's how Letterpress was conceived and built. I believe you can guess how it is named.</p>
-
-      ]]></description>
-      <pubDate>Thu, 31 Jan 2013 00:00:00 -0000</pubDate>
-      <guid isPermaLink="true">https://chrstphfrtz.github.io/2013/01/sample_post.html</guid>
-      <link>https://chrstphfrtz.github.io/2013/01/sample_post.html</link>
-    </item>
-		
-    <item>
-      <title>Letterpress</title>
-      <description><![CDATA[
-			<p><em>This is a sample post to demonstrate how to write a post in Letterpress. You can see the rendered result <a href="http://wangling.me/2013/01/letterpress.html">here</a>.</em></p>
-
-<hr />
-
-<h3>Updated on 02/21/2013</h3>
-
-<p>With the release of Letterpress 0.0.2 I can have fun with math easily. Simply attaching a “math” tag gains me the power of math: $E=m*c^2$.</p>
-
-<hr />
-
 <div class="code"><pre><span></span><code><span class="code-k">fn</span> <span class="code-nf">main</span><span class="code-p">()</span><span class="code-w"> </span><span class="code-p">{</span><span class="code-w"></span>
 <span class="code-w">    </span><span class="code-kd">let</span><span class="code-w"> </span><span class="code-n">n</span><span class="code-w"> </span><span class="code-o">=</span><span class="code-w"> </span><span class="code-mi">5</span><span class="code-p">;</span><span class="code-w"></span>
 
