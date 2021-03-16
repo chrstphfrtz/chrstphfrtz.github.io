@@ -5,16 +5,16 @@ Handwritten by Michiel de Graaf.
 */
 
 :root {
-    --background-color: #fff;
+    --background-color: black;
 
-    --text-color: #18191a;
-    --text-color-light: rgb(164,171,178);
-    --text-color-medium: #666;
-    --text-color-strong: black;
+    --text-color: white;
+    --text-color-light: white;
+    --text-color-medium: white;
+    --text-color-strong: white;
 
-    --link-color: rgb(184,23,35);
-    --link-color-light: rgb(164,171,178);
-    --link-color-strong: black;
+    --link-color: #2bbc8a;
+    --link-color-light: #2bbc8a;
+    --link-color-strong: #2bbc8a;
 
     --separator-color: #ccc;
 
